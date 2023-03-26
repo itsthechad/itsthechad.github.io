@@ -1,1 +1,36 @@
-Hello World!
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Morphimation</title>
+  <LINK href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<h1>Hi. Below is what I'm calling an SVG Morphimation.</h1>
+
+	<!-- This is the only part you do need to keep in your HTML: a container with the id of "themorphimation" -->
+	<div id="themorphimation">
+		<!-- It would be a good idea to place a fallback JPG or PNG here for the purposes of progressive enhancement -->
+		<p>PLACEHOLDER</p>
+	</div>
+
+</body>
+	
+	<!-- include jQuery and the morphimation script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type='text/javascript' src='morphimation.js'></script>
+	
+	<script>
+	// Document ready
+	jQuery(document).ready(function($){
+
+		// Initiate and run the morphimation, passing in the path of your SVG file (renamed with html extenstion) and the animation duration
+		morphimation( "caricatureSVGs.html", 10 );
+
+	});
+	</script>
+	
+</html>
