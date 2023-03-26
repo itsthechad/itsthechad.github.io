@@ -5,12 +5,12 @@ html, body, #morphimation-container {
 
 #morphimation-container {
 	display: flex;
-    justify-content: center;
-    align-items: center;	
+	justify-content: center;
+	align-items: center;	
 }
 
 #themorphimation {
-    flex: 1 1 auto;
+	flex: 1 1 auto;
 	max-width: 520px;
 }
 
@@ -20,9 +20,9 @@ html, body, #morphimation-container {
 
 #themorphimation.fadeIn {
 	-webkit-transition: 2s;
-  	-moz-transition: 2s;
-  	-ms-transition: 2s;
-  	-o-transition: 2s;
-  	transition: 2s;
+	-moz-transition: 2s;
+	-ms-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
 	opacity: 1;
 }
