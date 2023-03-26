@@ -10,6 +10,7 @@ html, body, #morphimation-container {
 }
 
 #themorphimation {
+    flex: 1 1 auto;
 	max-width: 520px;
 }
 
