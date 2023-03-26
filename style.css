@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+
+#themorphimation {
+	max-width: 520px;
+	margin: 0 auto;
+}
+
+#themorphimation.fadeOut {
+	opacity: 0;
+}
+
+#themorphimation.fadeIn {
+	-webkit-transition: 2s;
+  	-moz-transition: 2s;
+  	-ms-transition: 2s;
+  	-o-transition: 2s;
+  	transition: 2s;
+	opacity: 1;
+}
