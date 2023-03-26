@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 
 <html>
+	
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>It Was The Chad</title>
-  <LINK href="style.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>It Was The Chad</title>
+	<LINK href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-
-	<div id="themorphimation">
-		<!-- It would be a good idea to place a fallback JPG or PNG here for the purposes of progressive enhancement -->
-		<p>Welcome to thechad.com</p>
+	<div id="morphimation-container">
+		<div id="themorphimation">
+			<!-- It would be a good idea to place a fallback JPG or PNG here for the purposes of progressive enhancement -->
+			<p>Welcome to thechad.com</p>
+		</div>
 	</div>
-
 </body>
 	
-	<!-- include jQuery and the morphimation script -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type='text/javascript' src='morphimation.js'></script>
-	
-	<script>
+<!-- include jQuery and the morphimation script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type='text/javascript' src='morphimation.js'></script>
+
+<script>
 	// Document ready
 	jQuery(document).ready(function($){
-
 		// Initiate and run the morphimation, passing in the path of your SVG file (renamed with html extenstion) and the animation duration
-		morphimation( "caricatureSVGs.html", 10 );
-
+		morphimation( "caricatureSVGs.html", 12 );
 	});
-	</script>
+</script>
 	
 </html>
